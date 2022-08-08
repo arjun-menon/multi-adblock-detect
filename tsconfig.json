@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "lib/esm",
+    "outDir": ".",
     "target": "es5",
     "module": "esnext",
     "declaration": true,
