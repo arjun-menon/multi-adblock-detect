@@ -27,3 +27,18 @@ The table below shows the success level of the ad blocker detection techniques i
 
 You can import one or multiple of these detection techniques for use in your project.
 
+## LICENSE
+The detection code is derived from multiple sources.
+
+* `detectAdBlockBaitElementOrXhrGoogle`: https://github.com/wmcmurray/just-detect-adblock
+  * which in turn is derived from: https://github.com/sitexw/BlockAdBlock
+* `detectAdBlockFetchDoubleClick`: https://github.com/aruniverse/adblock-detect-react/blob/master/adblock-detect-react
+* 3 algorithms are from: https://incolumitas.com/2020/12/27/detecting-uBlock-Origin-and-Adblock-Plus-with-JavaScript-only/
+  * `detectAdBlockFetchOrXhrAdsByGoogle` (the "ultimate" solution in the article above)
+    * Dervied from: https://github.com/NikolaiT/adblock-detect-javascript-only/blob/master/index.js
+  * `detectAdBlockScriptAdsByGoogle` (first solution in the article above)
+  * `detectAdBlockScriptSailthruJs` (an update solution from May 25th 2022)
+* `detectAdBlockScriptAdsJs`: an in-house solution, this might be removed soon due to low effectiveness
+
+The wrapper code here is released under Apache 2.0.
+
