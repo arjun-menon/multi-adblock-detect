@@ -31,22 +31,22 @@ You can import one or multiple of these detection techniques for use in your pro
 
 Each technique is available as a regular function, and as a React hook.
 
-* detectAdBlockFetchOrXhrAdsByGoogle,
+* detectAdBlockFetchOrXhrAdsByGoogle
   * useDetectAdBlockFetchOrXhrAdsByGoogle
 
-* detectAdBlockFetchDoubleClick,
+* detectAdBlockFetchDoubleClick
   * useDetectAdBlockFetchDoubleClick
 
-* detectAdBlockScriptSailthruJs,
+* detectAdBlockScriptSailthruJs – requires a static asset
   * useDetectAdBlockScriptSailthruJs
 
-* detectAdBlockBaitElementOrXhrGoogle,
+* detectAdBlockBaitElementOrXhrGoogle – requires a static asset
   * useDetectAdBlockBaitElementOrXhrGoogle
 
-* detectAdBlockScriptAdsByGoogle,
+* detectAdBlockScriptAdsByGoogle
   * useDetectAdBlockScriptAdsByGoogle
 
-* detectAdBlockScriptAdsJs,
+* detectAdBlockScriptAdsJs – requires a static asset
   * useDetectAdBlockScriptAdsJs
 
 ### Usage
