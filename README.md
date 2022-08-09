@@ -31,23 +31,23 @@ You can import one or multiple of these detection techniques for use in your pro
 
 Each technique is available as a regular function, and as a React hook.
 
-* detectAdBlockFetchOrXhrAdsByGoogle
-  * useDetectAdBlockFetchOrXhrAdsByGoogle
+* `detectAdBlockFetchOrXhrAdsByGoogle`
+  * `useDetectAdBlockFetchOrXhrAdsByGoogle` (React Hook variant)
 
-* detectAdBlockFetchDoubleClick
-  * useDetectAdBlockFetchDoubleClick
+* `detectAdBlockFetchDoubleClick`
+  * `useDetectAdBlockFetchDoubleClick` (React Hook variant)
 
-* detectAdBlockScriptSailthruJs – requires a static asset
-  * useDetectAdBlockScriptSailthruJs
+* `detectAdBlockScriptSailthruJs` – ***requires a static asset***
+  * `useDetectAdBlockScriptSailthruJs` (React Hook variant)
 
-* detectAdBlockBaitElementOrXhrGoogle – requires a static asset
-  * useDetectAdBlockBaitElementOrXhrGoogle
+* `detectAdBlockBaitElementOrXhrGoogle` – ***requires a static asset***
+  * `useDetectAdBlockBaitElementOrXhrGoogle` (React Hook variant)
 
-* detectAdBlockScriptAdsByGoogle
-  * useDetectAdBlockScriptAdsByGoogle
+* `detectAdBlockScriptAdsByGoogle`
+  * `useDetectAdBlockScriptAdsByGoogle` (React Hook variant)
 
-* detectAdBlockScriptAdsJs – requires a static asset
-  * useDetectAdBlockScriptAdsJs
+* `detectAdBlockScriptAdsJs` – ***requires a static asset***
+  * `useDetectAdBlockScriptAdsJs` (React Hook variant)
 
 ### Usage
 The function variant takes a callback (of type `() => void`), which gets called/triggered if an ad blocker is detected.
