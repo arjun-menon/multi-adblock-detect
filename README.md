@@ -23,7 +23,7 @@ The table below shows the effectiveness level of the ad blocker detection techni
 | `...ScriptSailthruJs`         | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | `...BaitElementOrXhrGoogle`   | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
 | `...ScriptAdsByGoogle`        | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
-| `detectAdBlockScriptAdsJs`    | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| `...ScriptAdsJs`    | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 
 You can import one or multiple of these detection techniques for use in your project.
