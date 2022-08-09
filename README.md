@@ -31,12 +31,12 @@ You can import one or multiple of these detection techniques for use in your pro
 ## LICENSE
 The detection code is derived from multiple sources.
 
-* `detectAdBlockBaitElementOrXhrGoogle`: https://github.com/wmcmurray/just-detect-adblock
-  * which in turn is derived from: https://github.com/sitexw/BlockAdBlock
-* `detectAdBlockFetchDoubleClick`: https://github.com/aruniverse/adblock-detect-react/blob/master/adblock-detect-react
-* 3 algorithms are from: https://incolumitas.com/2020/12/27/detecting-uBlock-Origin-and-Adblock-Plus-with-JavaScript-only/
+* `detectAdBlockBaitElementOrXhrGoogle`: https://github.com/wmcmurray/just-detect-adblock (**no license** information)
+  * which in turn is derived from: https://github.com/sitexw/BlockAdBlock (MIT license)
+* `detectAdBlockFetchDoubleClick`: https://github.com/aruniverse/adblock-detect-react/blob/master/adblock-detect-react (**no license** information)
+* 3 algorithms are from: https://incolumitas.com/2020/12/27/detecting-uBlock-Origin-and-Adblock-Plus-with-JavaScript-only/ (**no license** information)
   * `detectAdBlockFetchOrXhrAdsByGoogle` (the "ultimate" solution in the article above)
-    * Dervied from: https://github.com/NikolaiT/adblock-detect-javascript-only/blob/master/index.js
+    * Dervied from: https://github.com/NikolaiT/adblock-detect-javascript-only/blob/master/index.js (**no license** information)
   * `detectAdBlockScriptAdsByGoogle` (first solution in the article above)
   * `detectAdBlockScriptSailthruJs` (an update solution from May 25th 2022)
 * `detectAdBlockScriptAdsJs`: an in-house solution, this might be removed soon due to low effectiveness
