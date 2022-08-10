@@ -13,6 +13,8 @@ The table below shows the effectiveness level of the several ad blocker detectio
 | `...ScriptAdsByGoogle`        | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
 | `...ScriptAdsJs`    | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
+The presence of uBO and FA cannot be detected, at this time.
+
 The various ad blockers (abbreviated above) are:
 * **uBO**: [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
 * **uB**: [uBlock](https://chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn?hl=en)
