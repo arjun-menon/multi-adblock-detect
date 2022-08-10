@@ -57,8 +57,9 @@ The custom hook contains a `useState` which intially starts out as `false`, and 
 _Note:_ there can be false positives (i.e. false detection of an ad blocker when none is present), but it is likely rare (and likely caused by an extension that does ad blocker-like things, like blocking tracking).
 
 ## LICENSE
-The detection code is derived from multiple sources.
+This code is derived from several sources. All original code is licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0), see full text at: https://github.com/arjun-menon/multi-adblock-detect/blob/master/LICENSE.md
 
+The detection code is derived from multiple sources.
 * `detectAdBlockBaitElementOrXhrGoogle`: https://github.com/wmcmurray/just-detect-adblock (**no license** information)
   * which in turn is derived from: https://github.com/sitexw/BlockAdBlock (MIT license)
 * `detectAdBlockFetchDoubleClick`: https://github.com/aruniverse/adblock-detect-react/blob/master/adblock-detect-react (**no license** information)
