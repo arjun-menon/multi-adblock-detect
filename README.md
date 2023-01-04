@@ -29,6 +29,20 @@ The various ad blockers (abbreviated above) are:
 
 You can import one or multiple of these detection techniques for use in your project.
 
+## Example Usage
+```ts
+import {
+  useDetectAdBlockFetchOrXhrAdsByGoogle,
+  useDetectAdBlockFetchDoubleClick,
+} from "multi-adblock-detect";
+
+export const useAdBlockDetect = (): boolean =>
+  [
+    useDetectAdBlockFetchOrXhrAdsByGoogle(),
+    useDetectAdBlockFetchDoubleClick(),
+  ].some(detected => detected);
+```
+
 ## Techniques
 
 Each technique is available as a regular function, and as a React hook.
