@@ -30,6 +30,7 @@ export const useAdBlockDetect = (): boolean => {
     //   useDetectAdBlockFetchDoubleClick: ${multiAdBlockDetected[5]}`);
     // }, [multiAdBlockDetected]);
 
+    // Was any ad blocker detected?:
     const anyAdBlockDetected = multiAdBlockDetected.some(detected => detected);
     return anyAdBlockDetected;
 };
