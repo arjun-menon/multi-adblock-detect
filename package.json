@@ -4,10 +4,10 @@
   "description": "Multivalent adblock detector",
   "main": "index.js",
   "repository": "https://github.com/arjun-menon/multi-adblock-detect",
-  "license": "See https://github.com/arjun-menon/multi-adblock-detect#LICENSE"
+  "license": "See https://github.com/arjun-menon/multi-adblock-detect#LICENSE",
   "dependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "typescript": "^3.7.5",
