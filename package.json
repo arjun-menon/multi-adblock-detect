@@ -1,6 +1,6 @@
 {
   "name": "multi-adblock-detect",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Multivalent adblock detector",
   "main": "index.js",
   "repository": "https://github.com/arjun-menon/multi-adblock-detect",
