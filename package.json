@@ -5,11 +5,13 @@
   "main": "index.js",
   "repository": "https://github.com/arjun-menon/multi-adblock-detect",
   "license": "See https://github.com/arjun-menon/multi-adblock-detect#LICENSE",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "typescript": "^3.7.5",
     "@types/react": "^16.9.17",
     "@types/react-dom": "^16.9.4"
