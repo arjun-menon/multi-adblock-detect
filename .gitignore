@@ -8,3 +8,5 @@ yarn-error.log
 index.js
 index.d.ts
 techniques
+
+.DS_Store
