@@ -1,5 +1,5 @@
-import { useDetectAdBlockFetchOrXhrAdsByGoogle } from './techniques/detectAdBlockFetchOrXhrAdsByGoogle';
-import { useDetectAdBlockFetchDoubleClick } from './techniques/detectAdBlockFetchDoubleClick';
+import { useDetectAdBlockFetchOrXhrAdsByGoogle } from './detectAdBlockFetchOrXhrAdsByGoogle';
+import { useDetectAdBlockFetchDoubleClick } from './detectAdBlockFetchDoubleClick';
 
 // const adsJsAsset = '/public/assets/ads.js';
 // const pagead2Asset = '/public/assets/pagead2.googlesyndication.com';

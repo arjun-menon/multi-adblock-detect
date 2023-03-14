@@ -5,8 +5,6 @@ yarn-error.log
 .idea
 
 # Build output:
-index.js
-index.d.ts
-techniques
+build
 
 .DS_Store

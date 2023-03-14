@@ -28,4 +28,4 @@ export {
     useDetectAdBlockFetchDoubleClick
 } from "./techniques/detectAdBlockFetchDoubleClick";
 
-export {useAdBlockDetect} from "./useAdBlockDetect";
+export {useAdBlockDetect} from "./techniques/useAdBlockDetect";
