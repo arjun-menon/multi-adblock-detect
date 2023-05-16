@@ -34,9 +34,10 @@ You can import one or multiple of these detection techniques for use in your pro
 import { useAdBlockDetect } from "multi-adblock-detect";
 
 function SomeReactComponent() {
-  const adblockerDetected = useAdBlockDetect();
+  const adblockerDetected: boolean = useAdBlockDetect();
 }
 ```
+The boolean above will start out as `false`, but will flip to `true` if/when an adblocker is detected — allowing you to trigger the render of an ablock advisory message/banner, for example.
 
 ## Techniques
 
