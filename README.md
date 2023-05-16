@@ -1,4 +1,4 @@
-# Multivalent Adblock Detector (with TypeScript + React Hook support)
+# Multi Adblock Detect (with TypeScript + React Hook support)
 
 This package contains several adblock detection techniques, drawn from different sources on the internet.
 
