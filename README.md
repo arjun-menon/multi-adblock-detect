@@ -31,16 +31,11 @@ You can import one or multiple of these detection techniques for use in your pro
 
 ## Example Usage
 ```ts
-import {
-  useDetectAdBlockFetchOrXhrAdsByGoogle,
-  useDetectAdBlockFetchDoubleClick,
-} from "multi-adblock-detect";
+import { useAdBlockDetect } from "multi-adblock-detect";
 
-export const useAdBlockDetect = (): boolean =>
-  [
-    useDetectAdBlockFetchOrXhrAdsByGoogle(),
-    useDetectAdBlockFetchDoubleClick(),
-  ].some(detected => detected);
+function SomeReactComponent() {
+  const adblockerDetected = useAdBlockDetect();
+}
 ```
 
 ## Techniques
